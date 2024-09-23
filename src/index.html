@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" http-equiv="Content-Security-Policy" content="default-src 'self', style-src 'self' 'unsafe-inline', img-src 'self' data:">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box" id="box">
+        <p class="dateText" id="dateText">0000/00/00</p>
+        <p class="dayText"><span id="dayText">日</span> :星期</p>
+        <div class="clock">
+            <div class="ClockBox">
+                <div class="TimeNumberBox" id="h1"><p>0</p><p>1</p><p>2</p><p>0</p></div>
+                <div class="TimeNumberBox" id="h2"><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>0</p></div>
+                <p class="TimeColon">:</p>
+                <div class="TimeNumberBox" id="m1"><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>0</p></div>
+                <div class="TimeNumberBox" id="m2"><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>0</p></div>
+                <p class="TimeColon">:</p>
+                <div class="TimeNumberBox" id="s1"><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>0</p></div>
+                <div class="TimeNumberBox" id="s2"><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>0</p></div>
+            </div>
+        </div>
+
+        <p class="waterMark">TF </p>
+        <p class="nameMark">clock</p>
+
+
+    </div>
+
+
+    <script src="./render.js"></script>
+</body>
+</html>
